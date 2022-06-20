@@ -1,4 +1,4 @@
-<h1 align="center">GAN-AE for LHC Olympics 2020</h1>
+<h1 align="center">GAN-AE for the LHC Olympics 2020</h1>
 
 > GAN-AE code used for [Mariana Vivas' project](https://github.com/marianaiv/benchtools). For the original repository go to [this link](https://github.com/lovaslin/GAN-AE_LHCOlympics).
 
