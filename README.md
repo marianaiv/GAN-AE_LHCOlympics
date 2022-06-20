@@ -2,7 +2,7 @@
 
 > GAN-AE code used for [Mariana Vivas' project](https://github.com/marianaiv/benchtools). For the original repository go to [this link](https://github.com/lovaslin/GAN-AE_LHCOlympics).
 
-# Instructions to reproduce results
+# Instructions to use the code
 ## Pre-processing datasets
 To pre-process the data follow the instructions given [in this link](https://gitlab.cern.ch/idinu/lhc-olympics-preprocessing). However, some changes were made to [payload.py](https://gitlab.cern.ch/idinu/lhc-olympics-preprocessing/-/blob/master/payload.py) for it to work:
 - Line 43: Delete the if statement to force the code to go through that path (I just used labeled data). Unindent line 44.
