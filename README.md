@@ -1,8 +1,9 @@
-# GAN-AE_LHCOlympics
-GAN-AE code used for [Mariana Vivas' project](https://github.com/marianaiv/benchtools). For the original repository go to [this link](https://github.com/lovaslin/GAN-AE_LHCOlympics).
+<h1 align="center">GAN-AE for LHC Olympics 2020</h1>
 
-## Instructions to reproduce results
-### Pre-processing datasets
+> GAN-AE code used for [Mariana Vivas' project](https://github.com/marianaiv/benchtools). For the original repository go to [this link](https://github.com/lovaslin/GAN-AE_LHCOlympics).
+
+# Instructions to reproduce results
+## Pre-processing datasets
 To pre-process the data follow the instructions given [in this link](https://gitlab.cern.ch/idinu/lhc-olympics-preprocessing). However, some changes were made to [payload.py](https://gitlab.cern.ch/idinu/lhc-olympics-preprocessing/-/blob/master/payload.py) for it to work:
 - Line 43: Delete the if statement to force the code to go through that path (I just used labeled data). Unindent line 44.
 - Line 52 to 63: Comment or delete.
@@ -17,7 +18,7 @@ The pre-processed data files can be found [in this link](
 https://onedrive.live.com/?authkey=%21APNzARJylhUVxt0&id=2C3CDD05B333D5E2%214457&cid=2C3CDD05B333D5E2)
 (but here is not the pre-processed data for the BB1 file with labels. Just the R&D dataset)
 
-### How I used the code
+## How I used the code
 The code requires Python 3.6 or greater. First, clone the repository and enter:
 ```
 git clone 
