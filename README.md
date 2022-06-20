@@ -19,9 +19,10 @@ https://onedrive.live.com/?authkey=%21APNzARJylhUVxt0&id=2C3CDD05B333D5E2%214457
 (but here is not the pre-processed data for the BB1 file with labels. Just the R&D dataset)
 
 ## How I used the code
-The code requires Python 3.6 or greater. First, clone the repository and enter:
+The code requires Python 3.6 or greater. First, clone the repository and enter in it:
 ```
-git clone 
+git clone https://github.com/marianaiv/GAN-AE_LHCOlympics.git
+cd GAN-AE_LHCOlympics
 ```
 Then, create a virtual enviroment from the eviroment.yml file using conda and activate it..
 ```
